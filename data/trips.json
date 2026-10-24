@@ -1,0 +1,242 @@
+{
+  "updated": "2026-10-24",
+  "places": [
+    {
+      "place": "Barcelona",
+      "area": "",
+      "region": "Spain",
+      "blurb": "Home base for the semester.",
+      "items": []
+    },
+    {
+      "place": "Lucerne",
+      "area": "",
+      "region": "Switzerland",
+      "blurb": "A walkable lake town for a long weekend. Zurich Airport is about an hour away by direct train, and EuroAirport Basel is also reachable by train: one flight from Barcelona plus a short rail ride.",
+      "source": "https://business.luzern.com/en/entdecken/informationen/travel-here-mobility",
+      "items": [
+        {
+          "id": "lucerne-chapel-bridge",
+          "category": "Do",
+          "title": "Chapel Bridge and Water Tower",
+          "details": "Switzerland Tourism says the 204-metre wooden Chapel Bridge is free to walk at any time. Paintings in the gables show local history, and 30 panels were restored after the 1993 fire. The octagonal Water Tower beside it is not open to the public. Early morning or late evening is quieter.",
+          "source": "https://www.myswitzerland.com/en/experiences/chapel-bridge-and-water-tower/"
+        },
+        {
+          "id": "lucerne-old-town",
+          "category": "Do",
+          "title": "Old town squares",
+          "details": "The same Switzerland Tourism page sends you from the bridge into the old town and names Weinmarkt, Mühlenplatz, Hirschenplatz, and Kapellplatz. Streets are mostly paved. It suggests a café on the Reuss but does not name one.",
+          "source": "https://www.myswitzerland.com/en/experiences/chapel-bridge-and-water-tower/"
+        },
+        {
+          "id": "lucerne-lion-monument",
+          "category": "Do",
+          "title": "Lion Monument",
+          "details": "Free admission. The lion, designed by Bertel Thorvaldsen and inaugurated in 1821, is in a park grotto at Denkmalstrasse 4. Panels are in German and English. About 15 minutes on foot from the station or the old town, or bus 1 or 19 to Löwenplatz.",
+          "source": "https://www.luzern.com/en/poi/lion-monument"
+        },
+        {
+          "id": "lucerne-weekly-market",
+          "category": "Food",
+          "title": "Weekly market on the Reuss",
+          "details": "Lucerne Tourism lists the Wochenmarkt every Tuesday and Saturday, 6 a.m. to 12 p.m., on Rathausquai, Unter der Egg, and Bahnhofstrasse, plus Helvetiagärtli on Saturdays. It names bread, mountain cheese, flowers, and vegetables, not individual stalls. A fish market in Unter der Egg is listed Tuesday, Friday, and Saturday at the same hours.",
+          "source": "https://www.luzern.com/en/the-city/things-to-do/shopping/markets-in-lucerne"
+        },
+        {
+          "id": "lucerne-markthalle",
+          "category": "Food",
+          "title": "Markthalle Luzern",
+          "details": "The same page names Markthalle Luzern, inside the railway station, open 365 days a year. It says the food is Swiss and regional, with breakfast and take-away lunch. It does not name stalls or prices.",
+          "source": "https://www.luzern.com/en/the-city/things-to-do/shopping/markets-in-lucerne"
+        },
+        {
+          "id": "lucerne-migros",
+          "category": "Food",
+          "title": "Migros restaurant",
+          "details": "The Lucerne Migros cooperative runs restaurants and food corners with a hot self-serve buffet and a salad buffet daily from 11:00 until closing, plus changing lunch menus. The page also lists burgers, wok, pizza, and poke, and says the offer varies by branch. It does not give a street address or a fixed price.",
+          "source": "https://gastro.migros.ch/genossenschaft-migros-luzern/angebot"
+        },
+        {
+          "id": "lucerne-trains",
+          "category": "Tip",
+          "title": "Trains from Zurich and Basel",
+          "details": "Lucerne Tourism lists direct trains between Lucerne and Zurich main station about every 30 minutes. The page writes the ride as 0:45–50 hours, meaning about 45–50 minutes. Basel SBB is an hourly direct train of about 1 hour 15 minutes. Ordinary tickets or a Swiss Travel Pass both work; the page does not give fares. Pilatus, Rigi, and the Jungfraujoch are listed as extra rail day trips, not part of walking the old town.",
+          "source": "https://www.luzern.com/en/information/planning/directions-mobility"
+        },
+        {
+          "id": "lucerne-francs",
+          "category": "Tip",
+          "title": "Pay in Swiss francs",
+          "details": "Switzerland Tourism says the currency is the Swiss franc (CHF), not the euro. Cards are accepted almost everywhere (Visa, Mastercard, American Express, and Maestro are the common ones). Some places take euros and give change in francs. Many shops close on Sunday, while station and airport shops stay open. A tip is not required; about 10 percent, or rounding up, is customary. The page also says Swiss cities are expensive.",
+          "source": "https://www.myswitzerland.com/en/planning/about-switzerland/general-facts/money-and-shopping/currency/"
+        },
+        {
+          "id": "lucerne-hotel-transit",
+          "category": "Tip",
+          "title": "Free city transit for hotel guests",
+          "details": "Lucerne Tourism says overnight guests in a Lucerne city hotel can use buses and trains in the city zone free. The page does not say whether a hostel or guesthouse is included, so ask at check-in. The old town is walkable from the station either way.",
+          "source": "https://www.luzern.com/en/information/planning/directions-mobility"
+        }
+      ]
+    },
+    {
+      "place": "Keswick",
+      "area": "Lake District",
+      "region": "England",
+      "blurb": "A market town on the north shore of Derwentwater, inside the Lake District National Park, with fell walks starting from town. The closest mainline station is Penrith.",
+      "source": "https://www.visitlakedistrict.com/explore/keswick",
+      "items": [
+        {
+          "id": "keswick-derwentwater-walk",
+          "category": "Do",
+          "title": "Derwentwater Walk",
+          "details": "The Keswick Tourism Association describes a waymarked 10-mile walk on flat paths around the lake, starting at the Keswick Launch and passing Friar's Crag. Allow a day, or shorten it by bus or the lake launch. If the lake is high, the boardwalk near Grange can flood and the page gives a road diversion. Along the route it names Keswick Launch, Lodore Falls Hotel, The Lingholm Kitchen, and The Chalet Tearooms, without menus.",
+          "source": "https://www.keswick.org/what-to-do/walking-routes/derwentwaterwalk"
+        },
+        {
+          "id": "keswick-castlerigg",
+          "category": "Do",
+          "title": "Castlerigg Stone Circle",
+          "details": "English Heritage lists Castlerigg as free and open in daylight. A ring of 38 stones, probably about 4,500 years old, with the fells behind it. The walk from the centre of Keswick takes about 30 minutes. The ground is often muddy and slippery, and the field is grazed by sheep.",
+          "source": "https://www.english-heritage.org.uk/visit/places/castlerigg-stone-circle/"
+        },
+        {
+          "id": "keswick-latrigg",
+          "category": "Do",
+          "title": "Latrigg viewpoint",
+          "details": "Visit Lake District calls Latrigg Keswick's premier viewpoint, on the north edge of town under Skiddaw. It says there is an accessible path to a bench with views across Derwentwater. The page does not give a distance or a time.",
+          "source": "https://www.visitlakedistrict.com/explore/keswick"
+        },
+        {
+          "id": "keswick-market",
+          "category": "Food",
+          "title": "Keswick Market",
+          "details": "Visit Lake District says Keswick Market runs every Thursday and Saturday, continuing a market charter from 1276. The page does not name stalls or give hours.",
+          "source": "https://www.visitlakedistrict.com/explore/keswick"
+        },
+        {
+          "id": "keswick-cafe-hope",
+          "category": "Food",
+          "title": "Cafe Hope",
+          "details": "Visit Lake District names Cafe Hope in the town centre for afternoon tea with a twist. The page does not list a menu or prices.",
+          "source": "https://www.visitlakedistrict.com/explore/keswick"
+        },
+        {
+          "id": "keswick-royal-oak",
+          "category": "Food",
+          "title": "The Royal Oak",
+          "details": "The same page names The Royal Oak as a town-centre pub. It does not describe the menu or prices.",
+          "source": "https://www.visitlakedistrict.com/explore/keswick"
+        },
+        {
+          "id": "keswick-lingholm",
+          "category": "Food",
+          "title": "Lingholm Kitchen",
+          "details": "Visit Lake District says the Lingholm Kitchen, nearby, serves brunch and lunch on the estate where Beatrix Potter found the idea for Mr McGregor's garden. It does not list dishes or prices.",
+          "source": "https://www.visitlakedistrict.com/explore/keswick"
+        },
+        {
+          "id": "keswick-fly-manchester",
+          "category": "Tip",
+          "title": "Fly into Manchester",
+          "details": "Ryanair flies Barcelona to Manchester direct in about 2 hours 35 minutes. On 24 October 2026 its fare finder showed January 2027 one-way seats from £19.99 (sample: Thursday 14 January 2027, departing 07:50). Fares change. The basic fare includes one small personal bag; a larger cabin bag is an extra fee. You still need the train and bus below.",
+          "source": "https://www.ryanair.com/gb/en/flights/flights-from-barcelona-to-manchester"
+        },
+        {
+          "id": "keswick-train-penrith",
+          "category": "Tip",
+          "title": "Train to Penrith",
+          "details": "TransPennine Express says Manchester Airport to Penrith (North Lakes) can take as little as 1 hour 48 minutes, with direct trains available. Weekday trains on the page run from 04:28 to 20:17; Sunday's first train is listed at 09:05. Some journeys may be with another company and need a change, so check the day. Advance tickets can be booked up to 24 weeks ahead. The page says a Railcard, including options for students, can take about a third off the fare.",
+          "source": "https://www.tpexpress.co.uk/travelling-with-us/routes/trains-from-manchester-airport-to-penrith-north-lakes"
+        },
+        {
+          "id": "keswick-bus",
+          "category": "Tip",
+          "title": "Bus from Penrith is £3",
+          "details": "Visit Keswick says the Stagecoach X4/X5 runs from Penrith bus and railway stations to Keswick, and that single fares are £3. The town can be crossed on foot in about ten minutes. Timetables change with the season, so check the last bus before you rely on it.",
+          "source": "https://www.keswick.org/visitor-information/gettingaroundkeswick"
+        },
+        {
+          "id": "keswick-uk-eta",
+          "category": "Tip",
+          "title": "UK ETA before you fly",
+          "details": "The UK Home Office says that from 25 February 2026, US citizens need an Electronic Travel Authorisation before travel. Airlines can refuse boarding without one. It costs £16, covers multiple trips, and lasts 2 years or until the passport expires, whichever is sooner. Apply in the UK ETA app and allow up to 3 working days. One ETA also covers Edinburgh.",
+          "source": "https://www.gov.uk/government/news/uk-enforces-digital-permission-to-travel"
+        }
+      ]
+    },
+    {
+      "place": "Edinburgh",
+      "area": "",
+      "region": "Scotland",
+      "blurb": "The practical Scotland base for a long weekend: a walkable city with a direct flight from Barcelona. Ryanair lists Barcelona to Edinburgh at about 2 hours 55 minutes.",
+      "source": "https://www.ryanair.com/gb/en/flights/flights-from-barcelona-to-edinburgh",
+      "items": [
+        {
+          "id": "edinburgh-national-museum",
+          "category": "Do",
+          "title": "National Museum of Scotland",
+          "details": "Free entry on Chambers Street (EH1 1JF); some special exhibitions are charged. Open daily 10:00–17:00. National Museums Scotland also names a Lunch Space in the Entrance Hall for food you bring yourself.",
+          "source": "https://www.nms.ac.uk/national-museum-of-scotland/plan-your-visit"
+        },
+        {
+          "id": "edinburgh-arthurs-seat",
+          "category": "Do",
+          "title": "Arthur's Seat in Holyrood Park",
+          "details": "Historic Environment Scotland says Holyrood Park, dominated by the volcanic peak Arthur's Seat, is free and open 24 hours a day, year-round. Wear shoes with grip: there are sheer drops and slippery rock. Part of the Radical Road is closed because of rockfall, and climbing areas are closed, so follow the signs. The page does not give a hike time. Toilets at the Education Centre run shorter hours from October to March (8 a.m. to 3 p.m.).",
+          "source": "https://www.historicenvironment.scot/visit/all/holyrood-park/plan-your-visit/"
+        },
+        {
+          "id": "edinburgh-galleries",
+          "category": "Do",
+          "title": "National Galleries of Scotland",
+          "details": "Admission is free and the galleries are open daily 10 a.m.–5 p.m.: the National, Modern One, Modern Two, and Portrait. The page describes the Scottish galleries at the National as the city-centre one.",
+          "source": "https://www.nationalgalleries.org/visit"
+        },
+        {
+          "id": "edinburgh-oink",
+          "category": "Food",
+          "title": "Oink hog roast",
+          "details": "Oink's own site sells pulled-pork rolls at three Edinburgh shops: Victoria Street, Canongate at the bottom of the Royal Mile, and Hanover Street in the New Town. Sizes on the page are Piglet £6.65 (80g), Oink £9.15 (160g), and Grunter £11.95 (250g), on white or brown bread, with sage-and-onion or haggis stuffing. Shops open every day from 11 a.m. until the pork sells out. A hot-honey special is listed only through 31 October 2026.",
+          "source": "https://www.oinkhogroast.co.uk/"
+        },
+        {
+          "id": "edinburgh-scottish-cafe",
+          "category": "Food",
+          "title": "Scottish Cafe and Restaurant",
+          "details": "The National Galleries name The Scottish Café & Restaurant at the National gallery, open daily 10 a.m.–5 p.m. with last orders at 4 p.m., and Cafe Espresso there until 4 p.m. The page mentions a salad, coffee, and cake, and does not list prices.",
+          "source": "https://www.nationalgalleries.org/visit"
+        },
+        {
+          "id": "edinburgh-museum-cafes",
+          "category": "Food",
+          "title": "Cafes inside the national museum",
+          "details": "National Museums Scotland names the Balcony Café (level 3), Hawthornden Café (level 1), and Museum Kitchen (level 0), open daily 10:00–17:00. The page does not list dishes or prices. The Entrance Hall Lunch Space is for food you bring yourself.",
+          "source": "https://www.nms.ac.uk/national-museum-of-scotland/plan-your-visit"
+        },
+        {
+          "id": "edinburgh-airport",
+          "category": "Tip",
+          "title": "Airport to the centre",
+          "details": "Ryanair's Barcelona–Edinburgh page says the airport is about 13 km west of the centre. It quotes about 30 minutes on the Airlink 100 bus to Waverley Bridge, and about 30 to 35 minutes on the tram to Princes Street or St Andrew Square. It also says the basic fare includes only a small personal bag. On 24 October 2026 its fare finder showed January 2027 one-way seats from £28.99 (sample: Saturday 23 January 2027, departing 21:15). Fares change.",
+          "source": "https://www.ryanair.com/gb/en/flights/flights-from-barcelona-to-edinburgh"
+        },
+        {
+          "id": "edinburgh-uk-eta",
+          "category": "Tip",
+          "title": "UK ETA before you fly",
+          "details": "The UK Home Office says that from 25 February 2026, US citizens need an Electronic Travel Authorisation before travel. Airlines can refuse boarding without one. It costs £16, covers multiple trips, and lasts 2 years or until the passport expires, whichever is sooner. Apply in the UK ETA app and allow up to 3 working days. One ETA covers both this trip and Keswick.",
+          "source": "https://www.gov.uk/government/news/uk-enforces-digital-permission-to-travel"
+        },
+        {
+          "id": "edinburgh-free-sights",
+          "category": "Tip",
+          "title": "Build the weekend from free sights",
+          "details": "National Museums Scotland says entry is free except for some special exhibitions, and the Entrance Hall has a Lunch Space for food you bring. The charged exhibitions are the optional extra.",
+          "source": "https://www.nms.ac.uk/national-museum-of-scotland/plan-your-visit"
+        }
+      ]
+    }
+  ]
+}
