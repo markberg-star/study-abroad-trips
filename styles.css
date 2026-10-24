@@ -63,6 +63,15 @@ h1 {
   line-height: 0.95;
 }
 
+h1::after {
+  content: "";
+  display: block;
+  width: 3.25rem;
+  height: 4px;
+  margin-top: 12px;
+  background: var(--red);
+}
+
 .updated {
   margin: 14px 0 0;
   color: var(--ink-soft);
@@ -78,11 +87,42 @@ h1 {
 
 .place {
   position: relative;
-  margin-top: 16px;
+  margin-top: 22px;
   background: var(--card);
   border: 1px solid var(--line);
   border-top: 4px solid var(--red);
   overflow: hidden;
+  box-shadow: 0 14px 28px rgba(70, 44, 24, 0.08);
+}
+
+.photo {
+  margin: 0;
+}
+
+.photo img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  object-position: center 50%;
+  background: #e7dfd2;
+}
+
+.photo-barcelona { object-position: center 74%; }
+.photo-lucerne { object-position: center 46%; }
+.photo-keswick { object-position: center 34%; }
+.photo-edinburgh { object-position: center 46%; }
+
+.photo-credit {
+  margin: 8px 16px 0 18px;
+  color: var(--ink-soft);
+  font-size: 0.72rem;
+  line-height: 1.35;
+}
+
+.photo-credit a {
+  color: inherit;
+  text-underline-offset: 2px;
 }
 
 .place-head {

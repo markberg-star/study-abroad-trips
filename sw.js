@@ -1,4 +1,4 @@
-var CACHE = "study-abroad-trips-v1";
+var CACHE = "study-abroad-trips-v2";
 var SHELL = [
   "index.html",
   "styles.css",
@@ -8,7 +8,11 @@ var SHELL = [
   "icon-192.png",
   "icon-512.png",
   "fonts/fraunces-500-latin.woff2",
-  "data/trips.json"
+  "data/trips.json",
+  "images/barcelona.jpg",
+  "images/lucerne.jpg",
+  "images/keswick.jpg",
+  "images/edinburgh.jpg"
 ];
 
 self.addEventListener("install", function (event) {

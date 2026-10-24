@@ -84,6 +84,34 @@
     return "";
   }
 
+  function localImage(value) {
+    var raw = clean(value);
+    if (!raw || /^[a-z][a-z0-9+.-]*:/i.test(raw) || raw.indexOf("//") === 0 || raw.indexOf("..") !== -1) {
+      return "";
+    }
+    return raw;
+  }
+
+  function renderCredit(credit) {
+    var text = clean(credit);
+    if (!text) return null;
+    var match = text.match(/https?:\/\/\S+/);
+    var href = match ? safeUrl(match[0].replace(/[),.;]+$/, "")) : "";
+    var label = match ? clean(text.replace(match[0], "").replace(/[—–-]\s*$/, "")) : text;
+    var caption = el("figcaption", "photo-credit");
+    if (href) {
+      var link = document.createElement("a");
+      link.href = href;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = label || "Photo credit";
+      caption.appendChild(link);
+    } else {
+      caption.textContent = label;
+    }
+    return caption;
+  }
+
   function sourceHost(href) {
     try {
       return new URL(href).hostname.replace(/^www\./, "");
@@ -169,9 +197,21 @@
   function renderPlace(place, index) {
     var section = el("section", "place");
     section.dataset.place = String(index);
+    var name = clean(place.place) || "Untitled place";
+    var imageSrc = localImage(place.image);
+    if (imageSrc) {
+      var figure = el("figure", "photo");
+      var img = document.createElement("img");
+      img.src = imageSrc;
+      img.alt = "Photograph of " + name;
+      img.className = "photo-" + name.toLowerCase().replace(/[^a-z0-9]+/g, "");
+      figure.appendChild(img);
+      var credit = renderCredit(place.credit);
+      if (credit) figure.appendChild(credit);
+      section.appendChild(figure);
+    }
     var head = el("div", "place-head");
     var titles = el("div", "place-titles");
-    var name = clean(place.place) || "Untitled place";
     var heading = el("h2", "place-name", name);
     heading.id = "place-" + index;
     section.setAttribute("aria-labelledby", heading.id);

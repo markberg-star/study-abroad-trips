@@ -6,6 +6,8 @@
       "area": "",
       "region": "Spain",
       "blurb": "Home base for the semester.",
+      "image": "images/barcelona.jpg",
+      "credit": "Photo: Jcca76, CC BY-SA 4.0, via Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Barcelona_desde_El_Carmelo.JPG",
       "items": []
     },
     {
@@ -14,6 +16,8 @@
       "region": "Switzerland",
       "blurb": "A walkable lake town for a long weekend. Zurich Airport is about an hour away by direct train, and EuroAirport Basel is also reachable by train: one flight from Barcelona plus a short rail ride.",
       "source": "https://business.luzern.com/en/entdecken/informationen/travel-here-mobility",
+      "image": "images/lucerne.jpg",
+      "credit": "Photo: Ikiwaner, CC BY-SA 3.0, via Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Luzern_Kapellbruecke.jpg",
       "items": [
         {
           "id": "lucerne-chapel-bridge",
@@ -86,6 +90,8 @@
       "region": "England",
       "blurb": "A market town on the north shore of Derwentwater, inside the Lake District National Park, with fell walks starting from town. The closest mainline station is Penrith.",
       "source": "https://www.visitlakedistrict.com/explore/keswick",
+      "image": "images/keswick.jpg",
+      "credit": "Photo: Lieven Smits, CC BY-SA 4.0, via Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Keswick_and_Derwentwater_aerial.jpg",
       "items": [
         {
           "id": "keswick-derwentwater-walk",
@@ -172,6 +178,8 @@
       "region": "Scotland",
       "blurb": "The practical Scotland base for a long weekend: a walkable city with a direct flight from Barcelona. Ryanair lists Barcelona to Edinburgh at about 2 hours 55 minutes.",
       "source": "https://www.ryanair.com/gb/en/flights/flights-from-barcelona-to-edinburgh",
+      "image": "images/edinburgh.jpg",
+      "credit": "Photo: Daniel Kraft, CC BY-SA 3.0, via Wikimedia Commons — https://commons.wikimedia.org/wiki/File:Edinburgh_cannon_and_old_town_20211020.jpg",
       "items": [
         {
           "id": "edinburgh-national-museum",
